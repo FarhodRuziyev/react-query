@@ -1,0 +1,25 @@
+.register{
+  display: flex; align-items: center;
+  justify-content: center; 
+  height: 89vh;
+   .format{
+    display: flex; flex-direction: column; align-items: center; row-gap: 1rem;
+    justify-content: center; 
+    & .inp{
+      width: 400px;
+      height: 2.5rem;
+      padding-left: 2rem;
+      border-radius: 6px;
+      border: none;
+      background-color: rgba(29, 105, 245, 0.195);
+    }
+    .btn {
+      background-color: rgba(29, 104, 245, 0.954);
+      color: white;
+      width: 400px;
+      height: 2.5rem;
+      border-radius: 6px;
+      border: none;
+    }
+  }
+}

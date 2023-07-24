@@ -1,0 +1,19 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  max-width: 1440px;
+  .container{
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+
+
